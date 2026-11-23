@@ -1,0 +1,16 @@
+{
+    "name": "kws_hub",
+    "version": "1.0.0",
+    "description": "唤醒词检测组件：引擎可插拔（KwsHub 中枢 + 唤醒词归一化匹配 + 监督任务），讯飞在线听写引擎（KwsXfyun，v2 IAT 流式识别），ESP-SR 离线引擎预留（KwsEspSr）",
+    "keywords": "kws, wake word, iat, xfyun, speech recognition",
+    "author": "chenxyon",
+    "license": "MIT",
+    "frameworks": "espidf",
+    "platforms": ["espressif32"],
+    "dependencies": {
+        "Inmp441Mic": "*",
+        "xfyun_auth": "*",
+        "tts_hub": "*",
+        "espressif/esp_websocket_client": "^1.2.0"
+    }
+}
